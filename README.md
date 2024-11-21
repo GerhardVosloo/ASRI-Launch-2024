@@ -17,6 +17,17 @@ during a short suborbital rocket journey.
 The payload contains 2 ESP32 dev boards each taking different data points from sensors connected to an I2C line and record the data onto
 a CSV data file stored on an onboard MicroSD card.
 ## Design
-Includes the following xChips on the CWV extended core:
- - SPL06-001 (Pressure, Temperature)
- - KXTJ3-1057 (IMU, 3-Axis)
+### Slice 1
+Lorem ipsum dolar
+### Slice 2
+Lorem ipsum dolar
+### Slice 3
+Lorem ipsum dolar
+### Slice 4
+Lorem ipsum dolar
+
+## Libraries
+AHTxx-Main
+lorum 
+ipsum
+dollar
