@@ -19,13 +19,14 @@ a CSV data file stored on an onboard MicroSD card.
 ## Design
 | Slice | Air Quality | Accelerometer | Weather | Barometer | Code | Contributor
 | -- | -- | -- | -- | -- | -- | -- |
-| 1 |✅|✅|❌|✅| ... | ... |
+| 1 |✅|✅|❌|✅| [Code](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/ASRI-SLICE-1.ino) | [@GerhardVosloo](https://github.com/GerhardVosloo) |
 | 2 | | | | | | |
 | 3 | | | | | | |
 | 4 | | | | | | |
 
 ## Libraries
 AHTxx-Main
+
 [IGA](https://github.com/domino4com/IGA) Air Quality Sensor
 
 [IIA](https://github.com/domino4com/IIA) Accelerometer
