@@ -17,17 +17,16 @@ during a short suborbital rocket journey.
 The payload contains 2 ESP32 dev boards each taking different data points from sensors connected to an I2C line and record the data onto
 a CSV data file stored on an onboard MicroSD card.
 ## Design
-### Slice 1
-Lorem ipsum dolar
-### Slice 2
-Lorem ipsum dolar
-### Slice 3
-Lorem ipsum dolar
-### Slice 4
-Lorem ipsum dolar
+| Slice | Air Quality | Accelerometer | Weather | Barometer | Code | Contributor
+| -- | -- | -- | -- | -- | -- | -- |
+| 1 |✅|✅|❌|✅| ... | ... |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| 4 | | | | | | |
 
 ## Libraries
 AHTxx-Main
-lorum 
-ipsum
-dollar
+[IGA](https://github.com/domino4com/IGA) Air Quality Sensor
+[IIA](https://github.com/domino4com/IIA) Accelerometer
+[IWA](https://github.com/domino4com/IWA) Weather Sensor
+[IWB](https://github.com/domino4com/IWB) Barometer
