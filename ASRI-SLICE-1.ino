@@ -1,10 +1,7 @@
 #define DATAFILE "/data.csv"
-//#ifndef I2C_SDA
+// pins for I2C
 #define I2C_SDA 17//SDA
-//#endif
-//#ifndef I2C_SCL
 #define I2C_SCL 18//SCL
-//#endif
 
 // expansion port pins for SD Card
 #define MMC_CLK 36
@@ -74,10 +71,9 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   char buffer[200];
 
-  // Start with milli seconds in the buffer
+  // milli seconds in the buffer
   sprintf(buffer, "%ld", millis());
 
   // add air quality data to buffer
@@ -120,6 +116,5 @@ void loop() {
   file.close();
 
   // Print the data to the Serial Port
-  // The CSV data format makes it viable to see live data using Microsoft Datastreamer (an Excel function): https://support.microsoft.com/en-us/office/what-is-data-streamer-1d52ffce-261c-4d7b-8017-89e8ee2b806f
   Serial.println(buffer);
 }
