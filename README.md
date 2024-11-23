@@ -27,6 +27,10 @@ a CSV data file stored on an onboard MicroSD card.
 ## Libraries
 AHTxx-Main
 [IGA](https://github.com/domino4com/IGA) Air Quality Sensor
+
 [IIA](https://github.com/domino4com/IIA) Accelerometer
+
 [IWA](https://github.com/domino4com/IWA) Weather Sensor
+
 [IWB](https://github.com/domino4com/IWB) Barometer
+
