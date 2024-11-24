@@ -17,16 +17,14 @@ during a short suborbital rocket journey.
 The payload contains 2 ESP32 dev boards each taking different data points from sensors connected to an I2C line and record the data onto
 a CSV data file stored on an onboard MicroSD card.
 ## Design
-| Slice | Air Quality | Accelerometer | Weather | Barometer | Code | Contributor
-| -- | -- | -- | -- | -- | -- | -- |
-| 1 |✅|✅|❌|✅| [Code](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/ASRI-SLICE-1.ino) | [@GerhardVosloo](https://github.com/GerhardVosloo) |
-| 2 | | | | | | |
+|  | Air Quality | Accelerometer | Weather | Barometer |  |
+| -- | -- | -- | -- | -- | -- |
+| 1 |✅|✅|❌|✅| [Code](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/ASRI-SLICE-1.ino) |
+| 2 |❌|✅|✅|✅|[Code](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/Parklands%20College/ASRI-SLICE-2.ino)|
 | 3 | | | | | | |
 | 4 | | | | | | |
 
 ## Libraries
-AHTxx-Main
-
 [IGA](https://github.com/domino4com/IGA) Air Quality Sensor
 
 [IIA](https://github.com/domino4com/IIA) Accelerometer
