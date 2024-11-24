@@ -1,7 +1,7 @@
 #define DATAFILE "/data.csv"
 // pins for I2C
-#define I2C_SDA 17//SDA
-#define I2C_SCL 18//SCL
+#define I2C_SDA 17 //SDA pin
+#define I2C_SCL 18 //SCL pin
 
 // expansion port pins for SD Card
 #define MMC_CLK 36
@@ -28,6 +28,8 @@ IIA iia;
 
 #include <IWB.h> //barometer
 IWB iwb;
+
+const char* columnHeadings = "Time (ms), CO2 (ppm), TVOC (ppb), Accel_X (g), Accel_Y (g), Accel_Z (g), Pressure (hPa), Temperature (C)";
 
 void setup() {
   Serial.begin(115200);
@@ -67,6 +69,19 @@ void setup() {
   if (!SD_MMC.begin()) {
     Serial.println("Card Mount Failed.");
     exit(0);
+  }
+
+  // check if data file exists
+  if (!SD_MMC.exists(DATAFILE)) {
+    // if not, create it and add column headings
+    File file = SD_MMC.open(DATAFILE, FILE_APPEND);
+    if (file) {
+      file.println(columnHeadings);
+      file.close();
+    } else {
+      Serial.println("Failed to create the file.");
+      exit(0);
+    }
   }
 }
 
