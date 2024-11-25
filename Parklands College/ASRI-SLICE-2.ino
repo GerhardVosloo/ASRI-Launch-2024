@@ -28,7 +28,7 @@ IIA iia;
 #include <IWA.h> //weather
 IWA iwa;
 
-const char* columnHeadings = "Time (ms), Accel_X (g), Accel_Y (g), Accel_Z (g), Pressure (hPa), Temperature (C),  Temperature (C), Humidity(RH)" ;
+const char* columnHeadings = "Time (ms), Accel_X (g), Accel_Y (g), Accel_Z (g), Pressure (hPa), Temperature (C), Humidity(RH),  TemperatureWeather (C)" ;
 
 
 void setup() {
