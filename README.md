@@ -22,7 +22,7 @@ a CSV data file stored on an onboard MicroSD card.
 | 1 |✅|✅|❌|✅| [Parklands College](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/src/ASRI-SLICE-1.ino) |
 | 2 |❌|✅|✅|✅|[Parklands College](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/src/ASRI-SLICE-2.ino)|
 | 3 |✅|✅|✅|✅| [Trinity Prep](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/src/ASRI-SLICE-3.ino)|
-| 4 | | | | | | |
+| 4 |❌|✅|✅|✅| [CAMST](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/src/ASRI-SLICE-4.ino)|
 
 ## Libraries
 [IGA](https://github.com/domino4com/IGA) Air Quality Sensor
