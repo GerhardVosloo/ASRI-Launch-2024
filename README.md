@@ -19,9 +19,9 @@ a CSV data file stored on an onboard MicroSD card.
 ## Design
 |  | Air Quality | Accelerometer | Weather | Barometer |  |
 | -- | -- | -- | -- | -- | -- |
-| 1 |✅|✅|❌|✅| [Code](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/ASRI-SLICE-1.ino) |
-| 2 |❌|✅|✅|✅|[Code](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/Parklands%20College/ASRI-SLICE-2.ino)|
-| 3 | | | | | | |
+| 1 |✅|✅|❌|✅| [Code](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/src/ASRI-SLICE-1.ino) |
+| 2 |❌|✅|✅|✅|[Code](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/src/ASRI-SLICE-2.ino)|
+| 3 |✅|✅|✅|✅| [Code](https://github.com/GerhardVosloo/ASRI-Launch-2024/blob/main/src/ASRI-SLICE-3.ino)|
 | 4 | | | | | | |
 
 ## Libraries
